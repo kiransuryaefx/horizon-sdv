@@ -1,5 +1,6 @@
 # Horizon
 
+
 Welcome! 
 
 This page provides an introduction to Horizon, a turnkey implementation designed for OEMs and suppliers interested in adopting Google Cloud’s Software-Defined Vehicle (SDV) industry solution.
