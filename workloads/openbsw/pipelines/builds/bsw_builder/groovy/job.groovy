@@ -31,6 +31,9 @@ pipelineJob('OpenBSW/Builds/BSW Builder') {
     </ul>
     <br/><div style="border-top: 1px solid #ccc; width: 100%;"></div><br/>""")
 
+  triggers {
+    githubPush()
+  }
   environmentVariables {
     env('GEMINI_PREVIEW_FEATURES', ${GEMINI_PREVIEW_FEATURES})
     env('GEMINI_LOCATION_GLOBAL', ${GEMINI_LOCATION_GLOBAL})
